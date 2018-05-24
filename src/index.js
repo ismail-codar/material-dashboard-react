@@ -1,21 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createBrowserHistory } from "history";
-import { Router, Route, Switch } from "react-router-dom";
 
-import "assets/css/material-dashboard-react.css?v=1.2.0";
+import { AppContainer } from "react-hot-loader";
+import { App } from "./app";
 
-import indexRoutes from "routes/index.jsx";
+// Wrap the rendering in a function:
+const render = Component => {
+  ReactDOM.render(
+    // Wrap App inside AppContainer
+    <AppContainer>
+      <App />
+    </AppContainer>,
+    document.getElementById("root")
+  );
+};
 
-const hist = createBrowserHistory();
+render(App);
 
-ReactDOM.render(
-  <Router history={hist}>
-    <Switch>
-      {indexRoutes.map((prop, key) => {
-        return <Route path={prop.path} component={prop.component} key={key} />;
-      })}
-    </Switch>
-  </Router>,
-  document.getElementById("root")
-);
+// Webpack Hot Module Replacement API
+if (module.hot) {
+  module.hot.accept("./app", () => {
+    render(App);
+  });
+}

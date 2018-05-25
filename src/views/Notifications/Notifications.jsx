@@ -11,7 +11,7 @@ import {
   SnackbarContent,
   Snackbar,
   ItemGrid
-} from "components";
+} from "../../components";
 
 class Notifications extends React.Component {
   constructor(props) {

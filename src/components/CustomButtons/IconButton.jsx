@@ -2,7 +2,7 @@ import React from "react";
 import { withStyles, IconButton } from "@material-ui/core";
 import PropTypes from "prop-types";
 
-import iconButtonStyle from "assets/jss/material-dashboard-react/iconButtonStyle";
+import iconButtonStyle from "../../assets/jss/material-dashboard-react/iconButtonStyle";
 
 function IconCustomButton({ ...props }) {
   const { classes, color, children, customClass, ...rest } = props;

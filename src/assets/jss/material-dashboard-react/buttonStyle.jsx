@@ -10,7 +10,7 @@ import {
   successColor,
   warningColor,
   dangerColor
-} from "assets/jss/material-dashboard-react.jsx";
+} from "../material-dashboard-react.jsx";
 
 const buttonStyle = {
   button: {

@@ -12,9 +12,10 @@ import {
   ListItemText
 } from "@material-ui/core";
 
-import { HeaderLinks } from "components";
+import { HeaderLinks } from "../../components";
 
-import sidebarStyle from "assets/jss/material-dashboard-react/sidebarStyle.jsx";
+import sidebarStyle from "../../assets/jss/material-dashboard-react/sidebarStyle.jsx";
+import { CounterDemo } from "../../state/demo";
 
 const Sidebar = ({ ...props }) => {
   // verifies if routeName is the one active (in browser input)
@@ -52,6 +53,7 @@ const Sidebar = ({ ...props }) => {
           </NavLink>
         );
       })}
+      <CounterDemo />
     </List>
   );
   var brand = (

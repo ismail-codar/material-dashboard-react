@@ -4,7 +4,7 @@ import { Clear, Check } from "@material-ui/icons";
 import PropTypes from "prop-types";
 import cx from "classnames";
 
-import customInputStyle from "assets/jss/material-dashboard-react/customInputStyle";
+import customInputStyle from "../../assets/jss/material-dashboard-react/customInputStyle";
 
 function CustomInput({ ...props }) {
   const {

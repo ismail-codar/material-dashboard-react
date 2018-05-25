@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 import PropTypes from "prop-types";
 
-import chartCardStyle from "assets/jss/material-dashboard-react/chartCardStyle";
+import chartCardStyle from "../../assets/jss/material-dashboard-react/chartCardStyle";
 
 function ChartCard({ ...props }) {
   const {

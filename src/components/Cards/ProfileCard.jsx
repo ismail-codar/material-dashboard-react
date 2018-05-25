@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 import PropTypes from "prop-types";
 
-import profileCardStyle from "assets/jss/material-dashboard-react/profileCardStyle";
+import profileCardStyle from "../../assets/jss/material-dashboard-react/profileCardStyle";
 
 function ProfileCard({ ...props }) {
   const { classes, subtitle, title, description, footer, avatar } = props;

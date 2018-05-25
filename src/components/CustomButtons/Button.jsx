@@ -3,7 +3,7 @@ import { withStyles, Button } from "@material-ui/core";
 import PropTypes from "prop-types";
 import cx from "classnames";
 
-import buttonStyle from "assets/jss/material-dashboard-react/buttonStyle";
+import buttonStyle from "../../assets/jss/material-dashboard-react/buttonStyle";
 
 function RegularButton({ ...props }) {
   const {

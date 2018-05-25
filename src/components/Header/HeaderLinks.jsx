@@ -13,9 +13,9 @@ import {
 } from "@material-ui/core";
 import { Person, Notifications, Dashboard, Search } from "@material-ui/icons";
 
-import { CustomInput, IconButton as SearchButton } from "components";
+import { CustomInput, IconButton as SearchButton } from "../../components";
 
-import headerLinksStyle from "assets/jss/material-dashboard-react/headerLinksStyle";
+import headerLinksStyle from "../../assets/jss/material-dashboard-react/headerLinksStyle";
 
 class HeaderLinks extends React.Component {
   state = {

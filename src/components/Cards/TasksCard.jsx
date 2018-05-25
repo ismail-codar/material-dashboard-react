@@ -11,11 +11,11 @@ import {
 } from "@material-ui/core";
 import { BugReport, Code, Cloud } from "@material-ui/icons";
 
-import { Tasks } from "components";
+import { Tasks } from "../../components";
 
-import { bugs, website, server } from "variables/general";
+import { bugs, website, server } from "../../variables/general";
 
-import tasksCardStyle from "assets/jss/material-dashboard-react/tasksCardStyle";
+import tasksCardStyle from "../../assets/jss/material-dashboard-react/tasksCardStyle";
 
 class TasksCard extends React.Component {
   state = {
@@ -49,8 +49,7 @@ class TasksCard extends React.Component {
                 classes={{
                   wrapper: classes.tabWrapper,
                   labelIcon: classes.labelIcon,
-                  label: classes.label,
-                  textColorInheritSelected: classes.textColorInheritSelected
+                  label: classes.label
                 }}
                 icon={<BugReport className={classes.tabIcon} />}
                 label={"Bugs"}
@@ -59,8 +58,7 @@ class TasksCard extends React.Component {
                 classes={{
                   wrapper: classes.tabWrapper,
                   labelIcon: classes.labelIcon,
-                  label: classes.label,
-                  textColorInheritSelected: classes.textColorInheritSelected
+                  label: classes.label
                 }}
                 icon={<Code className={classes.tabIcon} />}
                 label={"Website"}
@@ -69,8 +67,7 @@ class TasksCard extends React.Component {
                 classes={{
                   wrapper: classes.tabWrapper,
                   labelIcon: classes.labelIcon,
-                  label: classes.label,
-                  textColorInheritSelected: classes.textColorInheritSelected
+                  label: classes.label
                 }}
                 icon={<Cloud className={classes.tabIcon} />}
                 label={"Server"}

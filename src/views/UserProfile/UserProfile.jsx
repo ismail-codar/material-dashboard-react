@@ -7,9 +7,9 @@ import {
   Button,
   CustomInput,
   ItemGrid
-} from "components";
+} from "../../components";
 
-import avatar from "assets/img/faces/marc.jpg";
+import avatar from "../../assets/img/faces/marc.jpg";
 
 function UserProfile({ ...props }) {
   return (

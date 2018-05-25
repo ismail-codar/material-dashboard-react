@@ -9,7 +9,7 @@ import {
   successBoxShadow,
   warningBoxShadow,
   dangerBoxShadow
-} from "assets/jss/material-dashboard-react.jsx";
+} from "../material-dashboard-react.jsx";
 
 const snackbarContentStyle = {
   root: {

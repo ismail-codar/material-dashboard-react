@@ -23,15 +23,15 @@ import {
   RegularCard,
   Table,
   ItemGrid
-} from "components";
+} from "../../components";
 
 import {
   dailySalesChart,
   emailsSubscriptionChart,
   completedTasksChart
-} from "variables/charts";
+} from "../../variables/charts";
 
-import dashboardStyle from "assets/jss/material-dashboard-react/dashboardStyle";
+import dashboardStyle from "../../assets/jss/material-dashboard-react/dashboardStyle";
 
 class Dashboard extends React.Component {
   state = {

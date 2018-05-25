@@ -12,7 +12,7 @@ import {
   Danger,
   Small,
   RegularCard
-} from "components";
+} from "../../components";
 
 const style = {
   typo: {

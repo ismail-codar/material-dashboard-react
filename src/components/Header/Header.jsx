@@ -11,7 +11,7 @@ import {
 } from "@material-ui/core";
 import cx from "classnames";
 
-import headerStyle from "assets/jss/material-dashboard-react/headerStyle.jsx";
+import headerStyle from "../../assets/jss/material-dashboard-react/headerStyle.jsx";
 
 import HeaderLinks from "./HeaderLinks";
 

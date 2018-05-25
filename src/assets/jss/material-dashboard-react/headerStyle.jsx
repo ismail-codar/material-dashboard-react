@@ -11,7 +11,7 @@ import {
   successColor,
   warningColor,
   dangerColor
-} from "assets/jss/material-dashboard-react.jsx";
+} from "../material-dashboard-react.jsx";
 
 const headerStyle = theme => ({
   appBar: {
@@ -33,7 +33,7 @@ const headerStyle = theme => ({
   },
   container: {
     ...container,
-    minHeight: "50px",
+    minHeight: "50px"
   },
   flex: {
     flex: 1
